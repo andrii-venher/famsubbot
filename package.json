@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^18.11.9",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
@@ -26,8 +27,10 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "module-alias": "^2.2.2",
+    "mongodb": "^4.11.0",
     "node-graceful-shutdown": "^1.1.2",
     "reflect-metadata": "^0.1.13",
+    "shallow-equal-object": "^1.1.1",
     "telegraf": "^4.10.0",
     "ts-log": "^2.2.5",
     "ts-node": "^10.9.1",

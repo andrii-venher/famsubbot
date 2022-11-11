@@ -12,4 +12,11 @@ export default {
   bot: {
     token: process.env.BOT_TOKEN || '',
   },
+  db: {
+    connectionString: process.env.DB_CONNECTION_STRING || '',
+    name: process.env.DB_NAME || '',
+    collections: {
+      users: 'users',
+    },
+  },
 };

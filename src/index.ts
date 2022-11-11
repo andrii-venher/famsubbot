@@ -8,7 +8,7 @@ import { logger } from './logger/logger';
 onShutdown(stop);
 
 start()
-  .then()
+  .then(() => {})
   .catch((err) => {
     logger.error(err.message, err);
   });
